@@ -1,0 +1,15 @@
+7. Actualice la página en su navegador y pregúntese ¿Hay cambios en la visualización del sitio web? Si la
+respuesta es negativa, piense un momento ¿Para qué sirven las etiquetas meta? Busque esa respuesta en la
+introducción teórica de la guía o consulte con una búsqueda de su duda en google.
+
+R// visualmente no se ve los cambios ya que las etiquetas "meta" son informacion "invisible" para mejorar
+la compatibilidad, accesibilidad, posicionamiento y cómo la página se comparte o se muestra en distintos
+contextos (Por ejemplo: para el SEO (optimización en motores de búsqueda)).
+
+9. Asegúrese de entender el valor del atributo src de la etiqueta img. ¿Qué pasaría si la imagen esta guardada
+en la misma carpeta de la página web? ¿Y si está en una carpeta superior?
+
+R//Sobre el contexto cuando la imagen esta dentro de la misma carpeta que el .html, el src se tendria que modificar
+con el siguiente codigo: "<img src="imagen.png" alt="Imagen">" y en comparacion si la imagen esta en una carpeta
+superior que el .html se escribiria asi: "<img src="../imagenes/imagen.png" alt="Imagen">" donde ".." es el nombre de
+la carpeta anterior donde esta resguardado el .html.
